@@ -32,7 +32,7 @@ const MyNav = () => {
           <img
             src={DPRLogo}
             alt="DPR Logo"
-            className="h-20 w-auto hover:scale-125 transition-all"
+            className="h-20 w-auto cursor-pointer hover:scale-125 transition-all"
           />
         </a>
 
