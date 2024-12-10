@@ -1,0 +1,21 @@
+.myLogin-container {
+  background: linear-gradient(
+    45deg,
+    rgb(68, 243, 255),
+    rgb(98, 187, 255),
+    rgb(37, 120, 228)
+  );
+}
+.login-card {
+  /* background: linear-gradient(
+    45deg,
+    rgb(149, 195, 255),
+    rgb(88, 244, 255),
+    rgb(125, 199, 255)
+  ); */
+  background-color: aliceblue;
+}
+.error {
+  margin-top: 0;
+  color: red;
+}

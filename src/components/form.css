@@ -1,0 +1,83 @@
+.container {
+  width: 300px;
+  background-color: rgb(255, 245, 196);
+  color: black;
+  border-radius: 10px;
+  border: 3px solid rgb(255, 255, 255);
+  padding-bottom: 15px;
+}
+h2 {
+  padding-top: 2px;
+}
+.input-error {
+  border: 2px solid red;
+}
+.submit {
+  margin-bottom: -20px;
+}
+form input {
+  background-color: white;
+  width: 250px;
+  height: 20px;
+  margin: auto;
+  color: black;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+p {
+  text-align: left;
+  margin-left: 20px;
+}
+.error {
+  margin-top: 0;
+  color: red;
+}
+button:hover {
+  background-color: rgb(0, 0, 255);
+  cursor: pointer;
+}
+button {
+  background-color: rgb(87, 87, 249);
+  border-radius: 5px;
+  width: 90px;
+  height: 30px;
+  margin-top: 15px;
+  font-weight: bold;
+  border: 1px solid rgb(0, 0, 0);
+}
+.field-name {
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+a {
+  cursor: pointer;
+}
+form textarea {
+  width: 250px;
+}
+textarea {
+  width: 250px; /* Fixed width */
+  min-height: 50px; /* Minimum height */
+  max-height: 200px; /* Maximum height */
+  resize: vertical; /* Allow vertical resizing only */
+  padding: 8px; /* Padding for better user experience */
+  font-size: 14px; /* Adjust font size */
+  border: 1px solid #000000; /* Default border */
+  border-radius: 4px; /* Rounded corners */
+  box-sizing: border-box; /* Ensure padding doesn't affect width/height */
+  background-color: white;
+  color: black;
+}
+select {
+  background-color: white;
+  width: 253px;
+  height: 24px;
+  margin: auto;
+  color: black;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1.7px solid black;
+}
+.date-text {
+  border: 1.6px solid black;
+}

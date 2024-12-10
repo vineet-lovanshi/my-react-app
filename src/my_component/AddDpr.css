@@ -1,0 +1,11 @@
+.dpr-container {
+  background: linear-gradient(
+    45deg,
+    rgb(193, 68, 255),
+    rgb(229, 98, 255),
+    rgb(228, 37, 215)
+  );
+}
+textarea {
+  max-height: 200px;
+}

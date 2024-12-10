@@ -1,0 +1,28 @@
+.userLogin-container {
+  background: linear-gradient(
+    45deg,
+    rgb(68, 243, 255),
+    rgb(98, 187, 255),
+    rgb(37, 120, 228)
+  );
+}
+.welcome-text {
+  color: rgb(197, 106, 2);
+}
+.hello-msg {
+  color: rgb(42, 65, 165);
+  margin-bottom: -20px;
+}
+.user-name {
+  color: rgb(38, 47, 206);
+}
+.pop-up {
+  /* background: linear-gradient(
+    45deg,
+    rgb(68, 243, 255),
+    rgb(104, 190, 255),
+    rgb(114, 175, 255)
+  ); */
+
+  background-color: aliceblue;
+}
