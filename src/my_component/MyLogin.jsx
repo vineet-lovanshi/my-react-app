@@ -8,8 +8,8 @@ import { useNavigate } from "react-router-dom";
 const MyLogin = () => {
   const location = useLocation();
   const navigate = useNavigate();
-
-  const message = location.state?.message || ""; // Retrieve the message from the state
+  
+  const message = location.state?.message || ""; 
 
   const {
     register,
@@ -26,7 +26,6 @@ const MyLogin = () => {
     try {
       const response = await axios.post("http://localhost:8080/login", payload);
       localStorage.setItem("token", JSON.stringify(response.data.access_token));
-      // localStorage.setItem("userName", response.data.nameString);
       alert("Login Success");
       navigate("/");
     } catch (error) {
@@ -48,7 +47,7 @@ const MyLogin = () => {
           {message && (
             <p className="text-red-500 text-center mb-4">{message}</p>
           )}{" "}
-          {/* Display the message */}
+          
           <form
             onSubmit={handleSubmit(onSubmit)}
             className="flex flex-col gap-4"

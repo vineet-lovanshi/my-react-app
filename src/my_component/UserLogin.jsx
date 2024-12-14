@@ -42,7 +42,7 @@ const UserLogin = () => {
       {showPopup ? (
         <div className="fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50 z-50">
           <div className="pop-up rounded-lg p-6 shadow-lg max-w-md w-full bg-white">
-            <h2 className="text-2xl text-center font-bold text-gray-700  mb-4">
+            <h2 className="text-2xl text-center font-bold bg-slate-300 rounded-lg text-gray-700  mb-4">
               Your Profile
             </h2>
 
@@ -64,7 +64,7 @@ const UserLogin = () => {
 
             <button
               onClick={() => setShowPopup(false)}
-              className="px-4 py-2 bg-blue-500 text-white font-semibold rounded hover:bg-blue-600 transition duration-300"
+              className="px-4 py-1 bg-blue-500 text-white font-semibold rounded hover:bg-blue-600 transition duration-300"
             >
               Close
             </button>
