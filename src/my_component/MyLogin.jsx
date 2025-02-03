@@ -8,8 +8,8 @@ import { useNavigate } from "react-router-dom";
 const MyLogin = () => {
   const location = useLocation();
   const navigate = useNavigate();
-  
-  const message = location.state?.message || ""; 
+
+  const message = location.state?.message || "";
 
   const {
     register,
@@ -47,7 +47,6 @@ const MyLogin = () => {
           {message && (
             <p className="text-red-500 text-center mb-4">{message}</p>
           )}{" "}
-          
           <form
             onSubmit={handleSubmit(onSubmit)}
             className="flex flex-col gap-4"
